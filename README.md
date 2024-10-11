@@ -9,10 +9,10 @@ The data I propose to visualize for my project is [Olympic Swimming Dataset](htt
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * Which country is the best at each event?
+ * What was the fastest time of each event?
+ * Are there any patterns in which countries win which event?
+ * How many complete records are there? How many will need to be discarded because of missing data?
 
 ## Sketches
 
