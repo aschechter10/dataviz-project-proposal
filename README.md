@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is [Olympic Swimming Dataset](https://www.kaggle.com/datasets/datasciencedonut/olympic-swimming-1912-to-2020)
 
 
 ## Questions & Tasks
