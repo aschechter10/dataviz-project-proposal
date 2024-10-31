@@ -27,7 +27,9 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Prototypes
 
-So far, I do not have a working prototype for this dataset. I am currently working on establishing a bar chart that can pull from the data in some capacity. Not necessarily the aggregation I mentioned earlier, but just getting a working bar chart with this dataset.
+10/31/24
+Forgot to create a new viz last week, so from now on will create new vizzes each week as I iterate. Lots of progress this week, got the medal counts per event working. This worked really well and the visualizations are interesting. I want to allow as much customization as possible in the final version but for now my priority is on creating at least an event toggle (currently you can change the event programatically but not directly on the viz) and color coding countries consistently rather than randomly. Some events aren't working so I probably need to clean the data. 
+[10/31/24 progress](https://vizhub.com/aschechter10/olympic-swimming-project-version-1)
 
 ## Open Questions
 
