@@ -31,6 +31,10 @@ The following tasks and questions will drive the visualization and interaction d
 Forgot to create a new viz last week, so from now on will create new vizzes each week as I iterate. Lots of progress this week, got the medal counts per event working. This worked really well and the visualizations are interesting. I want to allow as much customization as possible in the final version but for now my priority is on creating at least an event toggle (currently you can change the event programatically but not directly on the viz) and color coding countries consistently rather than randomly. Some events aren't working so I probably need to clean the data. 
 [10/31/24 progress](https://vizhub.com/aschechter10/olympic-swimming-project-version-1)
 
+11/8/24
+This week had a lot of success with the button. You can now select any Olympic event and see the viz. There is more work to be done with styling but functionality looks solid. Next week I want to make more progress with colors, interactivity and animations maybe. 
+[11/8/24 progress](https://vizhub.com/aschechter10/olympic-swimming-project-2)
+
 ## Open Questions
 
 I'm not sure how realistic the toggle between events button will be. I'm hoping I can implement it as I feel as though it's crucial to encapsulating the dataset in the visualization well. 
