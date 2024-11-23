@@ -39,6 +39,10 @@ This week had a lot of success with the button. You can now select any Olympic e
 Good progress this week. Cleaned up the UI, got hover somewhat working. There is a bug where if you switch events, the hover resets the viz to 50m freestyle every time. I'll figure that out. Need to add tooltips then I'm pretty much done! Also want to look into animating the bars in and out for a nicer effect. And need to make the graph responsive. 
 [11/15/24](https://vizhub.com/aschechter10/olympic-swimming-project-3)
 
+11/22/24
+Functionality is pretty much done after this week. Hovering over bars works, bars are well color-coded. There is one last bug with some of the bars not having the fastest time on hover. Will have to look into that. Last steps are also looking into animating the bars on switching of the events.
+[11/22/24](https://vizhub.com/aschechter10/olympic-swimming-project-4)
+
 ## Open Questions
 
 I'm not sure how realistic the toggle between events button will be. I'm hoping I can implement it as I feel as though it's crucial to encapsulating the dataset in the visualization well. 
