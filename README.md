@@ -1,38 +1,44 @@
-# Data Visualization Project
+# Olympic Swimming Data Visualization Project
 
-## Data
+This project explores Olympic swimming data spanning over a century (1912–2020), using visualizations to uncover insights about medal distributions, event performances, and country-level dominance. The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/datasciencedonut/olympic-swimming-1912-to-2020), provided a rich foundation for analysis and storytelling.
 
-The data I propose to visualize for my project is [Olympic Swimming Dataset](https://www.kaggle.com/datasets/datasciencedonut/olympic-swimming-1912-to-2020)
+The visualization culminates in an interactive bar chart that displays the total gold medals won by each country across Olympic swimming events. This includes a toggle to filter by stroke type and hover interactions revealing the fastest swim times for men and women.
 
+## Objectives
 
-## Questions & Tasks
-
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+The project was guided by the following questions:
 
  * Which country is the best at each event?
- * What was the fastest time of each event?
- * Are there any patterns in which countries win which event?
- * How many complete records are there? How many will need to be discarded because of missing data?
+ * What was the fastest time recorded for each event?
+ * Are there patterns in which countries excel in specific events?
 
-## Sketches
+## Methodology
+
+The visualization was implemented in stages, iteratively refining both functionality and design. The key features of the final product are described below.
+
+### Data Cleaning
+
+Initial analysis revealed some missing data, which required filtering out incomplete records. Cleaning the data ensured accurate medal counts and no incomplete data. 
+
+### Visualization Design
+
+The primary visualization is a bar chart where:
+* X-axis: Country names as a 3 letter abbrevation e.g. USA for United States of America
+* Y-axis: Displays the total gold medals won by each country across all Olympics (combined men’s and women’s medals)
+* Toggle Control: Enables switching between stroke types and distances. Covers all Olympic events
+* Bar Hover Interaction: reveals details about the fastest man and woman for that event: their names, times, and the year and location of the Olympics where they competed.
+
+This was the first sketch of the project:
 
 ![image](./dataviz.jpg)
 
-- The data will be visualized in the form of a bar chart
-- The X axis will have the event distances (50m, 100m, 200m, ...)
-- The Y axis will have the total number of gold medals won by a country in that event across all valid Olympics (men's and women's medals combined)
-- The top right of the bar chart will have a toggle to switch which stroke you are looking at (in the sketch, it says Freestyle. This will have all the strokes as options as laid out in the right side of the sketch)
-- Hovering on the bar charts will hopefully show the fastest times for men and women respectively in that specific event (so for 50m freestyle, it would show the fastest man to ever swim 50m freestyle at any Olympics and the fastest woman. It will show their name, final time, and which olympics it was swam at)
+## Development Timeline
 
-
-## Prototypes
-
-10/31/24
-Forgot to create a new viz last week, so from now on will create new vizzes each week as I iterate. Lots of progress this week, got the medal counts per event working. This worked really well and the visualizations are interesting. I want to allow as much customization as possible in the final version but for now my priority is on creating at least an event toggle (currently you can change the event programatically but not directly on the viz) and color coding countries consistently rather than randomly. Some events aren't working so I probably need to clean the data. 
-[10/31/24 progress](https://vizhub.com/aschechter10/olympic-swimming-project-version-1)
+* The first iteration focused on a basic bar chart displaying medal counts per event. While functional, it lacked interactivity, consistent color coding for countries, and responsive design.
+[Version 1 (10/31/24)](https://vizhub.com/aschechter10/olympic-swimming-project-version-1)
 
 11/8/24
-This week had a lot of success with the button. You can now select any Olympic event and see the viz. There is more work to be done with styling but functionality looks solid. Next week I want to make more progress with colors, interactivity and animations maybe. 
+* Version 2 added a toggle for switching between events, and improved layout and added consistent color-coding for countries.
 [11/8/24 progress](https://vizhub.com/aschechter10/olympic-swimming-project-2)
 
 11/15/24
