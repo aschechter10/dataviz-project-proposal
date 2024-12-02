@@ -34,7 +34,7 @@ This was the first sketch of the project:
 
 ## Development Timeline
 
-* The first iteration focused on a basic bar chart displaying medal counts per event. While functional, it lacked interactivity, consistent color coding for countries, and responsive design.
+* The first iteration focused on a basic bar chart displaying medal counts per event only for 1 event.
 [Version 1 (10/31/24)](https://vizhub.com/aschechter10/olympic-swimming-project-version-1)
 
 11/8/24
