@@ -40,21 +40,14 @@ This was the first sketch of the project:
 * Version 2 added a toggle for switching between events, and improved layout and added consistent color-coding for countries.
 [Version 2 (11/8/24)](https://vizhub.com/aschechter10/olympic-swimming-project-2)
 
-11/15/24
-Good progress this week. Cleaned up the UI, got hover somewhat working. There is a bug where if you switch events, the hover resets the viz to 50m freestyle every time. I'll figure that out. Need to add tooltips then I'm pretty much done! Also want to look into animating the bars in and out for a nicer effect. And need to make the graph responsive. 
-[11/15/24](https://vizhub.com/aschechter10/olympic-swimming-project-3)
+* Version 3 added a hover interaction but with no tooltips (just highlighting the bar). There were some bugs with switching events and hovering at this stage but the UI was looking closer to done.
+[Version 3 (11/15/24)](https://vizhub.com/aschechter10/olympic-swimming-project-3)
 
-11/22/24
-Functionality is pretty much done after this week. Hovering over bars works, bars are well color-coded. There is one last bug with some of the bars not having the fastest time on hover. Will have to look into that. Last steps are also looking into animating the bars on switching of the events.
-[11/22/24](https://vizhub.com/aschechter10/olympic-swimming-project-4)
+* With version 4 functionality was pretty much done. Hovering over bars works, bars are well color-coded. There is one last bug with some of the bars not having the fastest time on hover.
+[Version 4 (11/22/24)](https://vizhub.com/aschechter10/olympic-swimming-project-4)
 
-## Open Questions
+* Final Version: In progress
 
-I'm not sure how realistic the toggle between events button will be. I'm hoping I can implement it as I feel as though it's crucial to encapsulating the dataset in the visualization well. 
+## Conclusion
 
-## Milestones
-
-ASAP: working prototype
-2-3 weeks: Working bar chart for 1 stroke (all events showing properly on x-axis and accurate medal counts)
-4-6 weeks: Ability to either hover as mentioned, or toggle strokes as mentioned
-By the end: Have both hover and stroke selection working
+In progress
