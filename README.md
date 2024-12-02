@@ -37,9 +37,8 @@ This was the first sketch of the project:
 * The first iteration focused on a basic bar chart displaying medal counts per event only for 1 event.
 [Version 1 (10/31/24)](https://vizhub.com/aschechter10/olympic-swimming-project-version-1)
 
-11/8/24
 * Version 2 added a toggle for switching between events, and improved layout and added consistent color-coding for countries.
-[11/8/24 progress](https://vizhub.com/aschechter10/olympic-swimming-project-2)
+[Version 2 (11/8/24)](https://vizhub.com/aschechter10/olympic-swimming-project-2)
 
 11/15/24
 Good progress this week. Cleaned up the UI, got hover somewhat working. There is a bug where if you switch events, the hover resets the viz to 50m freestyle every time. I'll figure that out. Need to add tooltips then I'm pretty much done! Also want to look into animating the bars in and out for a nicer effect. And need to make the graph responsive. 
