@@ -30,29 +30,29 @@ The primary visualization is a bar chart where:
 
 This was the first sketch of the project:
 
-![image](./dataviz.jpg)
+![sketch](./dataviz.jpg)
 
 ## Development Timeline
 
 * The first iteration focused on a basic bar chart displaying medal counts per event only for 1 event.
 [Version 1 (10/31/24)](https://vizhub.com/aschechter10/olympic-swimming-project-version-1)
 
-![image](./dataviz-1.jpg)
+![version 1 image](./dataviz-1.jpg)
 
 * Version 2 added a toggle for switching between events, and improved layout and added consistent color-coding for countries.
 [Version 2 (11/8/24)](https://vizhub.com/aschechter10/olympic-swimming-project-2)
 
-![image](./dataviz-2.jpg)
+![version 2 image](./dataviz-2.jpg)
 
 * Version 3 added a hover interaction but with no tooltips (just highlighting the bar). There were some bugs with switching events and hovering at this stage but the UI was looking closer to done.
 [Version 3 (11/15/24)](https://vizhub.com/aschechter10/olympic-swimming-project-3)
 
-![image](./dataviz-3.jpg)
+![version 3 image](./dataviz-3.jpg)
 
 * With version 4 functionality was pretty much done. Hovering over bars works, bars are well color-coded. There is one last bug with some of the bars not having the fastest time on hover.
 [Version 4 (11/22/24)](https://vizhub.com/aschechter10/olympic-swimming-project-4)
 
-![image](./dataviz-4.jpg)
+![version 4 image](./dataviz-4.jpg)
 
 * Final Version: [here](https://vizhub.com/aschechter10/olympic-swimming-project)
 
